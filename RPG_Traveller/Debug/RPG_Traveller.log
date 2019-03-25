@@ -1,0 +1,12 @@
+﻿  Arum_City.cpp
+  Arum_Suburbs.cpp
+  Game.cpp
+  Ghali_Forest.cpp
+  Ghali_Riverside.cpp
+  LocationContext.cpp
+  Player.cpp
+  Source.cpp
+  TroveBox.cpp
+  Generating Code...
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.cpp(264): warning C4715: 'Game::Update': not all control paths return a value
+  RPG_Traveller.vcxproj -> D:\Dokumenty\Pulpit\Studia\rok2\PO\laby\RPG-project\RPG_Traveller\Debug\RPG_Traveller.exe
