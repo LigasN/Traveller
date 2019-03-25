@@ -25,7 +25,7 @@ private:
 public:
 	
 	static Game& getInstance();
-	Locations getLocationName();
+	int getLocationName();
 	Player & getPlayer();
 	//NPC & getNPC();
 
@@ -38,6 +38,6 @@ public:
 	void setEpisod(Episodes episod);
 	void setPlayerState(PlayerStates state);
 
-	void Update();
+	bool Update();
 };
 

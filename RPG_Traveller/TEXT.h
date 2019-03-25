@@ -29,7 +29,9 @@ typedef enum {
 	Road3 = 22,
 	Road4 = 23,
 	Road5 = 24,
-	Road6 = 25
+	Road6 = 25,
+	First_moments_ending = 26,
+	First_moments_traveling = 27
 } TEXT_ID;
 
 typedef enum Languages {
@@ -63,7 +65,7 @@ static const char* TEXTS[4][100]{
 	"l -> Rozgladasz sie kolo siebie jeszcze dokladniej wierzac, ze diabel tkwi w szczegolach.(full version)\n"
 	"i -> Przegladasz stan twojego plecaka i swoj rowniez\n"
 	"d -> Zaczynasz tanczyc zbojnickiego\n",																	
-	"<Lokacja>:\t",			//7
+	"\n<Lokacja>:\t",			//7
 	"Co zamierzasz\n\tt -> Nie mam w planach sie tutaj dluzej zatrzymywac. Kontynuujmy podroz!\n"			//8
 	"\ti -> Musze sprawdzic zapasy i chwile odpoczac.\n\tw -> Chodzmy sie "			
 	"przejsc. Mam tutaj sprawe do zalatwienia.\n\td -> Mam ochote... Potanczyc!",		
@@ -84,6 +86,8 @@ static const char* TEXTS[4][100]{
 	"\n\n\tWedrowka z terenow nadrzecznych Ghali do przedmiesc miasta Arum...\n\n",			//23
 	"\n\n\tWedrowka po nieskonczonym lesie w Ghali...\n\n",			//24
 	"\n\n\tWedrowka z lasow w Ghali do terenow nadrzeczych tejze miejscowosci...\n\n",			//25
+	"\n\nByron: Brawo! Ukonczyles pierwsza misje! Wiecej w pelnej wersji gry\ne- EXIT\n",			//4
+	"\n\nt- podrozujesz dalej\n",
 	},
 	{
 	"Nie oczekiwany b³¹d\n\n",																					//0
@@ -118,7 +122,7 @@ static const char* TEXTS[4][100]{
 	"Przedmieœcia wielkiego miasta Arum\n",			//4
 	"Tereny nadrzeczne w Ghali\n",			//4
 	"Las w Ghali\n",			//4
-	"\n",			//4
+	"\n\nByron: Brawo! Ukonczyles pierwsza misje! Wiecej w pelnej wersji gry\ne- EXIT\n\n",			//4
 	"\n",			//4
 	"\n",			//4
 	},

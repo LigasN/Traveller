@@ -16,10 +16,10 @@ protected:
 	int MAX_NPCs{};
 	int MIN_NPCs{};
 
-public:
+public:/*
 	virtual void goLeft(LocationContext *newOne);
-	virtual void goRight(LocationContext *newOne);
-	virtual Locations getName();
+	virtual void goRight(LocationContext *newOne);*/
+	virtual int getName();
 	virtual void info();
 	void addTrove(Trove & toAdd);
 	Trove getTrove();

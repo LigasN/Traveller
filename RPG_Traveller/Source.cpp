@@ -8,7 +8,7 @@ int main() {
 
 	while (!Game::getInstance().getGameOver())
 	{
-		Game::getInstance().Update();
+		if (Game::getInstance().Update() == EXIT_SUCCESS) break;
 	}
 	return EXIT_SUCCESS;
 }

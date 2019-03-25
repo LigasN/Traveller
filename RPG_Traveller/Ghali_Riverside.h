@@ -15,12 +15,12 @@ class Ghali_Riverside : public LocationState
 public:
 	Ghali_Riverside();
 	~Ghali_Riverside();
-
+/*
 	void goLeft(LocationContext * newOne);
-	void goRight(LocationContext * newOne);
+	void goRight(LocationContext * newOne);*/
 
 
-	virtual Locations getName();
+	virtual int getName();
 	virtual void info();
 };
 

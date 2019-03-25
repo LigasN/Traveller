@@ -27,25 +27,25 @@ Arum_City::~Arum_City()
 {
 }
 
-void Arum_City::goLeft(LocationContext * newOne)
-{
-	system("cls");
-	std::cout << TEXTS[language][Road];
-	newOne->setLocation(new Arum_Suburbs());
-	delete this;
-}
+//void Arum_City::goLeft(LocationContext * newOne)
+//{
+//	system("cls");
+//	std::cout << TEXTS[language][Road];
+//	newOne->setLocation(new Arum_Suburbs());
+//	delete this;
+//}
+//
+//void Arum_City::goRight(LocationContext * newOne)
+//{
+//	system("cls");
+//	std::cout << TEXTS[language][Road];
+//	newOne->setLocation(new Arum_Suburbs());
+//	delete this;
+//}
 
-void Arum_City::goRight(LocationContext * newOne)
+int Arum_City::getName()
 {
-	system("cls");
-	std::cout << TEXTS[language][Road];
-	newOne->setLocation(new Arum_Suburbs());
-	delete this;
-}
-
-Locations Arum_City::getName()
-{
-	return Locations::City;
+	return 0;
 }
 
 void Arum_City::info()

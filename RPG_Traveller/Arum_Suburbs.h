@@ -15,10 +15,10 @@ class Arum_Suburbs : public LocationState
 public:
 	Arum_Suburbs();
 	~Arum_Suburbs();
-
+/*
 	void goLeft(LocationContext * newOne);
-	void goRight(LocationContext * newOne);
+	void goRight(LocationContext * newOne);*/
 
-	virtual Locations getName();
+	virtual int getName();
 	virtual void info();
 };

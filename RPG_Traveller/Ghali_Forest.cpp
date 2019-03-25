@@ -21,26 +21,26 @@ Ghali_Forest::Ghali_Forest()
 Ghali_Forest::~Ghali_Forest()
 {
 }
+//
+//void Ghali_Forest::goLeft(LocationContext * newOne)
+//{
+//	system("cls");
+//	std::cout << TEXTS[language][Road + 5];
+//	newOne->setLocation(new Ghali_Forest());
+//	delete this;
+//}
+//
+//void Ghali_Forest::goRight(LocationContext * newOne)
+//{
+//	system("cls");
+//	std::cout << TEXTS[language][Road + 6];
+//	newOne->setLocation(new Ghali_Riverside());
+//	delete this;
+//}
 
-void Ghali_Forest::goLeft(LocationContext * newOne)
+int Ghali_Forest::getName()
 {
-	system("cls");
-	std::cout << TEXTS[language][Road + 5];
-	newOne->setLocation(new Ghali_Forest());
-	delete this;
-}
-
-void Ghali_Forest::goRight(LocationContext * newOne)
-{
-	system("cls");
-	std::cout << TEXTS[language][Road + 6];
-	newOne->setLocation(new Ghali_Riverside());
-	delete this;
-}
-
-Locations Ghali_Forest::getName()
-{
-	return Locations::Forest;
+	return 4;
 }
 
 void Ghali_Forest::info()

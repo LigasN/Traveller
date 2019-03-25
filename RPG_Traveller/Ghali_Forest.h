@@ -14,12 +14,12 @@ class Ghali_Forest : public LocationState
 public:
 	Ghali_Forest();
 	~Ghali_Forest();
-
+/*
 	void goLeft(LocationContext * newOne);
-	void goRight(LocationContext * newOne);
+	void goRight(LocationContext * newOne);*/
 
 
-	virtual Locations getName();
+	virtual int getName();
 	virtual void info();
 };
 

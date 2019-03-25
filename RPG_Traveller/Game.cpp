@@ -7,7 +7,7 @@
 #include "Title.h"
 #include "Map.h"
 
-Game::Game()
+Game::Game() : Location()
 {
 	Title();
 	gameOver = false;
@@ -36,7 +36,7 @@ Game & Game::getInstance()
 	return game;
 }
 
-Locations Game::getLocationName()
+int Game::getLocationName()
 {
 	return Location.getName();
 }
@@ -84,17 +84,17 @@ void Game::setPlayerState(PlayerStates state)
 	this->state = state;
 }
 
-void Game::Update()
+bool Game::Update()
 {
 	system("cls");
-	episodes_machine.EpisodFunction(episod, state, npc, "", Language, Location.getName());
+	episodes_machine.EpisodFunction(episod, state, npc, "", Language, getLocationName());
 	char option{};
 
 	switch (state)
 	{
 	case PlayerStates::playerState:
 		player.info();
-
+		std::cout << "\nk- kontynuuj";
 		std::cin >> option;
 		if (option == 'k')
 		{
@@ -140,10 +140,11 @@ void Game::Update()
 		{
 			state = PlayerStates::Traveling;
 		}
-		else if (option == 'i')
-		{
-			state = PlayerStates::playerState;
-		}/*
+		//else if (option == 'i')
+		//{
+		//	state = PlayerStates::playerState;
+		//}
+		/*
 		else if (option == 'w')
 		{
 			state = PlayerStates::Walk;
@@ -151,6 +152,9 @@ void Game::Update()
 		else if (option == 'd')
 		{
 			state = PlayerStates::Dance;
+		}else if (option == 'e')
+		{
+			return EXIT_SUCCESS;
 		}/*
 		else if (option == 'l')
 		{
@@ -164,14 +168,16 @@ void Game::Update()
 	case PlayerStates::Traveling:
 
 		Map();
+		bool choice;
 		std::cin >> option;
 		if (option == 'r') {
-			Location.goRight();
+			choice = false;
+			Location.move(choice);
 		}
 		else if (option == 'l') {
-			Location.goLeft();
+			choice = true;
+			Location.move(choice);
 		}
-
 		state = PlayerStates::WhatNow;
 
 		break;

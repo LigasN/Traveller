@@ -13,14 +13,14 @@ public:
 	LocationContext();
 	~LocationContext();
 
-	//LocationState * getLocation();
+	LocationState * getLocation();
 	void setLocation(LocationState * newOne);
 
-	void goLeft();
-	void goRight();
+	//void goLeft();
+	//void goRight();
 
 	void info();
-	Locations getName();
+	int getName();
 	bool move(bool left);
 	void addTrove(Trove & toAdd);
 	Trove getTrove();

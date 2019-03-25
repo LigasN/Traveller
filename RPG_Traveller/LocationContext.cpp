@@ -15,7 +15,9 @@
 
 LocationContext::LocationContext()
 {
-	actualLocation = new Arum_City();
+	Arum_City city;
+	actualLocation = &city;
+	location = Locations::City;
 }
 
 
@@ -24,34 +26,36 @@ LocationContext::~LocationContext()
 	actualLocation = nullptr;
 }
 
-//LocationState * LocationContext::getLocation()
-//{
-//	return actualLocation;
-//}
+LocationState * LocationContext::getLocation()
+{
+	return actualLocation;
+}
 
 void LocationContext::setLocation(LocationState * newOne)
 {
 	actualLocation = newOne;
 }
 
-void LocationContext::goLeft()
-{
-	actualLocation->goLeft(this);
-}
-
-void LocationContext::goRight()
-{
-	actualLocation->goRight(this);
-}
+//void LocationContext::goLeft()
+//{
+//	/*actualLocation->goLeft(this);*/
+//	
+//	actualLocation 
+//}
+//
+//void LocationContext::goRight()
+//{
+//	actualLocation->goRight(this);
+//}
 
 void LocationContext::info()
 {
 	actualLocation->info();
 }
 
-Locations LocationContext::getName()
+int LocationContext::getName()
 {
-	return actualLocation->getName();
+	return location;
 }
 
 bool LocationContext::move(bool left)
@@ -61,22 +65,57 @@ bool LocationContext::move(bool left)
 	{
 	case Locations::City:
 		if (left == false || left == true) {
-			goLeft();
+			/*goLeft();*/
+			Arum_Suburbs sub;
+			actualLocation = &sub;
+			location = Locations::Suburbs;
 			return true;
 		}
 	case Locations::Suburbs:
-		if (left == true) goLeft();
-		if (left == false) goRight();
+		if (left == true) {
+			/*goLeft();*/
+			Ghali_Riverside riv;
+			actualLocation = &riv;
+
+			location = Locations::Riverside;
+		}
+		if (left == false) {
+			/*goRight();*/
+			Arum_City riv;
+			actualLocation = &riv;
+
+			location = Locations::City;
+		}
 		if (left == false || left == true)	return true;
 
 	case Locations::Forest:
-		if (left == true) goLeft();
-		if (left == false) goRight();
+		if (left == true) {
+			/*goLeft();*/
+			Ghali_Forest riv;
+			actualLocation = &riv;
+			location = Locations::Forest;
+		}
+		if (left == false) {
+			/*goLeft();*/
+			Ghali_Riverside riv;
+			actualLocation = &riv;
+			location = Locations::Riverside;
+		}
 		if (left == false || left == true)	return true;
 
 	case Locations::Riverside:
-		if (left == true) goLeft();
-		if (left == false) goRight();
+		if (left == true) {
+			/*goLeft();*/
+			Ghali_Forest riv;
+			actualLocation = &riv;
+			location = Locations::Forest;
+		}
+		if (left == false) {
+			/*goLeft();*/
+			Arum_Suburbs riv;
+			actualLocation = &riv;
+			location = Locations::Suburbs;
+		}
 		if (left == false || left == true)	return true;
 
 	}

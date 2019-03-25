@@ -2,17 +2,17 @@
 #include "Trove.h"
 #include <iostream>
 
-void LocationState::goLeft(LocationContext * newOne)
-{
-	std::cout << std::endl;
-}
+//void LocationState::goLeft(LocationContext * newOne)
+//{
+//	std::cout << std::endl;
+//}
+//
+//void LocationState::goRight(LocationContext * newOne)
+//{
+//	std::cout << std::endl;
+//}
 
-void LocationState::goRight(LocationContext * newOne)
-{
-	std::cout << std::endl;
-}
-
-Locations LocationState::getName()
+int LocationState::getName()
 {
 	return Locations::City;
 }

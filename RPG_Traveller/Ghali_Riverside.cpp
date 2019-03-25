@@ -23,26 +23,26 @@ Ghali_Riverside::Ghali_Riverside()
 Ghali_Riverside::~Ghali_Riverside()
 {
 }
+//
+//void Ghali_Riverside::goLeft(LocationContext * newOne)
+//{
+//	system("cls");
+//	std::cout << TEXTS[language][Road + 3];
+//	newOne->setLocation(new Ghali_Forest());
+//	delete this;
+//}
+//
+//void Ghali_Riverside::goRight(LocationContext * newOne)
+//{
+//	system("cls");
+//	std::cout << TEXTS[language][Road + 4];
+//	newOne->setLocation(new Arum_Suburbs());
+//	delete this;
+//}
 
-void Ghali_Riverside::goLeft(LocationContext * newOne)
+int Ghali_Riverside::getName()
 {
-	system("cls");
-	std::cout << TEXTS[language][Road + 3];
-	newOne->setLocation(new Ghali_Forest());
-	delete this;
-}
-
-void Ghali_Riverside::goRight(LocationContext * newOne)
-{
-	system("cls");
-	std::cout << TEXTS[language][Road + 4];
-	newOne->setLocation(new Arum_Suburbs());
-	delete this;
-}
-
-Locations Ghali_Riverside::getName()
-{
-	return Locations::Riverside;
+	return 3;
 }
 
 void Ghali_Riverside::info()

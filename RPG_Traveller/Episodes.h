@@ -20,7 +20,7 @@
 ///
 /////////////////////////////////////////////////////////////////////////////
 struct EpisodesMachine {
-	void EpisodFunction(Episodes & Epi, PlayerStates & state, NPC & npc, const char* SpecialInfo, int language, Locations Location) {
+	void EpisodFunction(Episodes & Epi, PlayerStates & state, NPC & npc, const char* SpecialInfo, int language, int Location) {
 		int choice{};
 
 		std::cout << TEXTS[language][Location_Name];
@@ -46,7 +46,23 @@ struct EpisodesMachine {
 			switch (Epi) {
 
 			case Episodes::First_moments:
-				std::cout << TEXTS[language][Byron_name];
+				if (Location == Locations::City) {
+					std::cout << TEXTS[language][Byron_name];
+				}
+				else if (Location == Locations::Suburbs) {
+
+					std::cout << TEXTS[language][First_moments_traveling];
+				}
+				else if (Location == Locations::Riverside) {
+
+					std::cout << TEXTS[language][First_moments_ending];
+
+				}
+				else if (Location == Locations::Forest) {
+
+					std::cout << TEXTS[language][First_moments_traveling];
+				}
+				
 				break;
 			case Episodes::Random_walking_episodes:
 				break;

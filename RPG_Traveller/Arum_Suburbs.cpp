@@ -24,26 +24,26 @@ Arum_Suburbs::Arum_Suburbs()
 Arum_Suburbs::~Arum_Suburbs()
 {
 }
+//
+//void Arum_Suburbs::goLeft(LocationContext * newOne)
+//{
+//	system("cls");
+//	std::cout << TEXTS[language][Road + 1];
+//	newOne->setLocation(new Ghali_Riverside());
+//	delete this;
+//}
+//
+//void Arum_Suburbs::goRight(LocationContext * newOne)
+//{
+//	system("cls");
+//	std::cout << TEXTS[language][Road + 2];
+//	newOne->setLocation(new Arum_City());
+//	delete this;
+//}
 
-void Arum_Suburbs::goLeft(LocationContext * newOne)
+int Arum_Suburbs::getName()
 {
-	system("cls");
-	std::cout << TEXTS[language][Road + 1];
-	newOne->setLocation(new Ghali_Riverside());
-	delete this;
-}
-
-void Arum_Suburbs::goRight(LocationContext * newOne)
-{
-	system("cls");
-	std::cout << TEXTS[language][Road + 2];
-	newOne->setLocation(new Arum_City());
-	delete this;
-}
-
-Locations Arum_Suburbs::getName()
-{
-	return Locations::Suburbs;
+	return 1;
 }
 
 void Arum_Suburbs::info()
