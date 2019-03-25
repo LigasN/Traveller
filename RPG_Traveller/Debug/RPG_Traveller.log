@@ -1,0 +1,22 @@
+﻿  Arum_City.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(20): error C2061: syntax error: identifier 'LocationContext'
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(21): error C2061: syntax error: identifier 'LocationContext'
+  Ghali_Forest.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(20): error C2061: syntax error: identifier 'LocationContext'
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(21): error C2061: syntax error: identifier 'LocationContext'
+  Game.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(20): error C2061: syntax error: identifier 'LocationContext'
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(21): error C2061: syntax error: identifier 'LocationContext'
+  Ghali_Riverside.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(20): error C2061: syntax error: identifier 'LocationContext'
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(21): error C2061: syntax error: identifier 'LocationContext'
+  Arum_Suburbs.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(20): error C2061: syntax error: identifier 'LocationContext'
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(21): error C2061: syntax error: identifier 'LocationContext'
+  Source.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(20): error C2061: syntax error: identifier 'LocationContext'
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(21): error C2061: syntax error: identifier 'LocationContext'
+  TroveBox.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(20): error C2061: syntax error: identifier 'LocationContext'
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(21): error C2061: syntax error: identifier 'LocationContext'
+  Generating Code...
