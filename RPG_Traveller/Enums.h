@@ -19,7 +19,8 @@ typedef enum {
 	Suburbs = 0,
 	City = 1,
 	Forest = 2,
-	Riverside = 3
+	Riverside = 3,
+	DerelictHouse = 4
 } Locations;
 
 enum PlayerStates {

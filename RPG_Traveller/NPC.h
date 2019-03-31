@@ -5,11 +5,11 @@
 class NPC
 {
 protected:
-	Statistics statistics;
+
 public:
 	NPC();
 	~NPC();
-
+	Statistics statistics;
 	virtual void Talk();
 	virtual int Hit();
 

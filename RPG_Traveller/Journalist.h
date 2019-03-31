@@ -3,7 +3,7 @@
 #include "Enums.h"
 #include "NPC.h"
 
-class Journalist : NPC
+class Journalist : public  NPC
 {
 public:
 	Journalist();

@@ -13,6 +13,7 @@
 ///				 -respect, 
 ///				 -persuasion_power 
 ///				 -backpack_capacity
+///				 -trove
 ///
 ///Default value of all kids informations is (int) 100 (like 100%)
 ///exept for nick which type is char. 

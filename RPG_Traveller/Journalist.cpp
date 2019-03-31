@@ -3,7 +3,7 @@
 
 
 
-Journalist::Journalist()
+Journalist::Journalist() : NPC()
 {
 	statistics.HP = 100;
 	statistics.backpack_capacity = 2;

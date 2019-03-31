@@ -1,12 +1,233 @@
-﻿  Arum_City.cpp
-  Arum_Suburbs.cpp
-  Game.cpp
+﻿  Animal.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C3646: 'statistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C3646: 'playerStatistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\animal.cpp(8): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\animal.cpp(9): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\animal.cpp(10): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\animal.cpp(11): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\animal.cpp(12): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\animal.cpp(13): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\animal.cpp(17): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\animal.cpp(35): error C2065: 'statistics': undeclared identifier
+  Bystander.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C3646: 'statistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C3646: 'playerStatistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\bystander.cpp(6): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\bystander.cpp(7): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\bystander.cpp(8): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\bystander.cpp(9): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\bystander.cpp(10): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\bystander.cpp(11): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\bystander.cpp(15): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\bystander.cpp(33): error C2065: 'statistics': undeclared identifier
+  Arum_City.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C3646: 'trove': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\arum_city.cpp(14): error C2065: 'box': undeclared identifier
+  City_official.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C3646: 'statistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C3646: 'playerStatistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\city_official.cpp(8): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\city_official.cpp(9): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\city_official.cpp(10): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\city_official.cpp(11): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\city_official.cpp(12): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\city_official.cpp(13): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\city_official.cpp(17): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\city_official.cpp(34): error C2065: 'statistics': undeclared identifier
+  Criminal.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C3646: 'statistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C3646: 'playerStatistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\criminal.cpp(8): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\criminal.cpp(9): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\criminal.cpp(10): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\criminal.cpp(11): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\criminal.cpp(12): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\criminal.cpp(13): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\criminal.cpp(17): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\criminal.cpp(35): error C2065: 'statistics': undeclared identifier
+  Dealer.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C3646: 'statistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C3646: 'playerStatistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\dealer.cpp(8): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\dealer.cpp(9): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\dealer.cpp(10): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\dealer.cpp(11): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\dealer.cpp(12): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\dealer.cpp(13): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\dealer.cpp(17): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\dealer.cpp(35): error C2065: 'statistics': undeclared identifier
   Ghali_Forest.cpp
-  Ghali_Riverside.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C3646: 'trove': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Game.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.cpp(103): error C2664: 'void EpisodesMachine::EpisodFunction(Episodes &,PlayerStates &,NPC *,const char *,int,int)': cannot convert argument 3 from 'NPC' to 'NPC *'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.cpp(103): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  Journalist.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C3646: 'statistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C3646: 'playerStatistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\journalist.cpp(8): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\journalist.cpp(9): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\journalist.cpp(10): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\journalist.cpp(11): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\journalist.cpp(12): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\journalist.cpp(13): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\journalist.cpp(17): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\journalist.cpp(35): error C2065: 'statistics': undeclared identifier
+  Level.cpp
   LocationContext.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C3646: 'trove': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\ghali_forest.h(13): error C2504: 'LocationState': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\ghali_riverside.h(14): error C2504: 'LocationState': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\arum_suburbs.h(14): error C2504: 'LocationState': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\arum_city.h(14): error C2504: 'LocationState': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(19): error C2440: '=': cannot convert from 'Arum_City *' to 'LocationState *'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(19): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(70): error C2440: '=': cannot convert from 'Arum_Suburbs *' to 'LocationState *'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(70): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(78): error C2440: '=': cannot convert from 'Ghali_Riverside *' to 'LocationState *'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(78): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(85): error C2440: '=': cannot convert from 'Arum_City *' to 'LocationState *'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(85): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(95): error C2440: '=': cannot convert from 'Ghali_Forest *' to 'LocationState *'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(95): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(101): error C2440: '=': cannot convert from 'Ghali_Riverside *' to 'LocationState *'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(101): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(110): error C2440: '=': cannot convert from 'Ghali_Forest *' to 'LocationState *'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(110): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(116): error C2440: '=': cannot convert from 'Arum_Suburbs *' to 'LocationState *'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationcontext.cpp(116): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  LocationState.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C3646: 'trove': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\ghali_forest.h(13): error C2504: 'LocationState': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\ghali_riverside.h(14): error C2504: 'LocationState': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\arum_suburbs.h(14): error C2504: 'LocationState': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\arum_city.h(14): error C2504: 'LocationState': base class undefined
+  NPC.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(24): error C2061: syntax error: identifier 'NPC'
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(28): error C2065: 'Location': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(31): error C2065: 'Location': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(35): error C2065: 'Location': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(39): error C2065: 'Location': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(50): error C2065: 'Location': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(53): error C2065: 'Location': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(57): error C2065: 'Location': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(62): error C2065: 'Location': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(155): error C2065: 'SpecialInfo': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(158): error C2065: 'SpecialInfo': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\episodes.h(161): error C2065: 'SpecialInfo': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C3646: 'playerStatistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\animal.h(7): error C2504: 'NPC': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\bystander.h(8): error C2504: 'NPC': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\city_official.h(8): error C2504: 'NPC': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\criminal.h(8): error C2504: 'NPC': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\dealer.h(7): error C2504: 'NPC': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\journalist.h(7): error C2504: 'NPC': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\smith.h(8): error C2504: 'NPC': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\worker.h(7): error C2504: 'NPC': base class undefined
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.h(22): error C3646: 'npc': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   Player.cpp
-  Source.cpp
-  TroveBox.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C3646: 'statistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.h(19): error C3646: 'player': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.h(31): error C2143: syntax error: missing ';' before '&'
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.h(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.h(31): error C2238: unexpected token(s) preceding ';'
+  Ghali_Riverside.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C3646: 'trove': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Settings_Body.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\settings_body.cpp(6): error C2600: 'Settings_Body::Settings_Body': cannot define a compiler-generated special member function (must be declared in the class first)
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\settings_body.cpp(11): error C2084: function 'Settings_Body::~Settings_Body(void)' already has a body
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\settings_body.h(9): note: see previous definition of '{dtor}'
+  Settings_Body_TXT.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\settings_body_txt.cpp(9): error C2600: 'Settings_Body_TXT::Settings_Body_TXT': cannot define a compiler-generated special member function (must be declared in the class first)
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\settings_body_txt.cpp(14): error C2600: 'Settings_Body_TXT::~Settings_Body_TXT': cannot define a compiler-generated special member function (must be declared in the class first)
+  Settings_Body_XML.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\settings_body_xml.cpp(8): error C2600: 'Settings_Body_XML::Settings_Body_XML': cannot define a compiler-generated special member function (must be declared in the class first)
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\settings_body_xml.cpp(13): error C2600: 'Settings_Body_XML::~Settings_Body_XML': cannot define a compiler-generated special member function (must be declared in the class first)
+  Settings_Handle.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\settings_handle.cpp(29): error C2084: function 'Settings_Handle::~Settings_Handle(void)' already has a body
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\settings_handle.h(29): note: see previous definition of '{dtor}'
+  Smith.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C3646: 'statistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C3646: 'playerStatistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\smith.cpp(8): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\smith.cpp(9): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\smith.cpp(10): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\smith.cpp(11): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\smith.cpp(12): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\smith.cpp(13): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\smith.cpp(17): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\smith.cpp(35): error C2065: 'statistics': undeclared identifier
   Generating Code...
-d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\game.cpp(264): warning C4715: 'Game::Update': not all control paths return a value
-  RPG_Traveller.vcxproj -> D:\Dokumenty\Pulpit\Studia\rok2\PO\laby\RPG-project\RPG_Traveller\Debug\RPG_Traveller.exe
+  Compiling...
+  Arum_Suburbs.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C3646: 'trove': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  TroveBox.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C3646: 'trove': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\statistics.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Worker.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C3646: 'statistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\npc.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C3646: 'box': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\locationstate.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C3646: 'playerStatistics': unknown override specifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\player.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\worker.cpp(8): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\worker.cpp(9): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\worker.cpp(10): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\worker.cpp(11): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\worker.cpp(12): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\worker.cpp(13): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\worker.cpp(17): error C2065: 'statistics': undeclared identifier
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\rpg_traveller\rpg_traveller\worker.cpp(35): error C2065: 'statistics': undeclared identifier
+  Generating Code...

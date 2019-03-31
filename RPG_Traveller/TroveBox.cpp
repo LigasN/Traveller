@@ -1,59 +1,187 @@
 #include "TroveBox.h"
-#include <iostream>
-#include "TEXT.h"
-#include "Game.h"
-#include "Enums.h"
-
 
 
 TroveBox::TroveBox()
 {
 }
 
-TroveBox::TroveBox(const char * recipient)
+/////////////////////////////////////////////////////////////////////////////
+///
+///Class which stores Troves == Items for player , npcs or places
+///
+///	input:
+///		-(int)recipient	- can be taken by enum with NPCTypes/Locations
+///		-(bool)place	- ask what type of recipient You want place 
+///			if true or npc/player if false
+///
+///	working way:	Makes random backpack for location/npcs/player
+///
+/////////////////////////////////////////////////////////////////////////////
+
+TroveBox::TroveBox(int recipient, bool place)
 {/////////To add more more code
-	if ("Arum_City") {
-		Trove add(Items::Sword, 2);
-		TrovesIn.push_back(add);
-	}
-	else if ("Arum_Suburbs") {
-		Trove add(Items::Sword, 1);
-		TrovesIn.push_back(add);
-	}
-	else if ("Ghali_Forest") {
-		Trove add(Items::Sword, 1);
-		TrovesIn.push_back(add);
-	}
-	else if ("Ghali_Riverside") {
-		Trove add(Items::Sword, 1);
-		TrovesIn.push_back(add);
-	}
-	else if ("Animal") {
 
-	}
-	else if ("ECriminal") {
+	this->recipient = recipient;
+	MXRN mxrn;
+	troveLimit = 20;
+	amountOfTroves = 0;
 
-	}
-	else if ("EBystander") {
+	if (recipient == Locations::City) 
+	{
 
-	}
-	else if ("EWorker") {
+		troveLimit = amountOfTroves = 10;
+		int i{};
 
+		do  
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
 	}
-	else if ("EDealer") {
+	else if (recipient == Locations::Suburbs) 
+	{
+		troveLimit = amountOfTroves = 4;
+		int i{};
 
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
 	}
-	else if ("ESmith") {
+	else if (recipient == Locations::Riverside) 
+	{
+		troveLimit = amountOfTroves = 8;
+		int i{};
 
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
 	}
-	else if ("ECity_official") {
+	else if (recipient == Locations::Forest) 
+	{
+		troveLimit = amountOfTroves = 4;
+		int i{};
 
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
 	}
-	else if ("EJournalist") {
+	else if (recipient == NPCTypes::EAnimal) 
+	{
+		troveLimit = amountOfTroves = 2;
+		int i{};
 
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
 	}
-	else if ("Derelict_House") {
+	else if (recipient == NPCTypes::EBystander) 
+	{
+		troveLimit = amountOfTroves = 2;
+		int i{};
 
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
+	}
+	else if (recipient == NPCTypes::ECity_official) 
+	{
+		troveLimit = amountOfTroves = 4;
+		int i{};
+
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
+	}
+	else if (recipient == NPCTypes::ECriminal) 
+	{
+		troveLimit = amountOfTroves = 1;
+		int i{};
+
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
+	}
+	else if (recipient == NPCTypes::EDealer) 
+	{
+		troveLimit = amountOfTroves = 15;
+		int i{};
+
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
+	}
+	else if (recipient == NPCTypes::EJournalist) 
+	{
+		troveLimit = amountOfTroves = 5;
+		int i{};
+
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
+	}
+	else if (recipient == NPCTypes::ESmith) 
+	{
+		troveLimit = amountOfTroves = 8;
+		int i{};
+
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
+	}
+	else if (recipient == NPCTypes::EWorker) 
+	{
+		troveLimit = amountOfTroves = 6;
+		int i{};
+
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
+	}
+	else if (recipient == Locations::DerelictHouse) 
+	{
+		troveLimit = amountOfTroves = 2;
+		int i{};
+
+		do
+		{
+			Trove add(Items::Sword, 2);
+			TrovesIn.push_back(add);
+			i++;
+		} while (i < troveLimit);
 	}
 }
 
@@ -65,6 +193,7 @@ TroveBox::~TroveBox()
 void TroveBox::info()
 {
 	std::cout << TEXTS[Game::getInstance().getLanguage()][Shop] << std::endl;
+
 	for ( int i = 0; i != TrovesIn.size(); i++) {
 		std::cout << i << " - ";
 		TrovesIn[i].info();
@@ -84,22 +213,42 @@ Trove TroveBox::GetAndDeleteTrove()
 	std::cin >> option;
 	Trove toGive = TrovesIn[option];
 	TrovesIn.erase(TrovesIn.begin() + option);
+	amountOfTroves--;
 	return toGive;
 }
 
-Trove & TroveBox::getTroveInfo(int option)
+void TroveBox::getTroveInfo(int option)
 {
-	return TrovesIn[option];
+	return TrovesIn[option].info();
+}
+
+std::vector<std::string> TroveBox::getTroveString(int option)
+{
+	std::vector<std::string> infos;
+
+	for ( Trove& i : TrovesIn) 
+	{	
+		infos.push_back(i.getInfoString());
+	}
+	
+	return infos;
 }
 
 Trove TroveBox::getTrove(int option)
 {
 	Trove toGive = TrovesIn[option];
 	TrovesIn.erase(TrovesIn.begin() + option);
+	amountOfTroves--;
 	return toGive;
 }
 
-void TroveBox::addTrove(Trove & toAdd)
+bool TroveBox::addTrove(Trove & toAdd)
 {
-	TrovesIn.push_back(toAdd);
+	if (troveLimit <= amountOfTroves) {
+		TrovesIn.push_back(toAdd);
+		amountOfTroves++;
+		return EXIT_SUCCESS;
+	}
+	return EXIT_FAILURE;
 }
+	

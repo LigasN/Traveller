@@ -4,7 +4,7 @@
 #include "NPC.h"
 
 
-class Criminal : NPC
+class Criminal : public NPC
 {
 public:
 	Criminal();

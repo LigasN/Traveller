@@ -12,6 +12,14 @@
 //	std::cout << std::endl;
 //}
 
+LocationState::LocationState()
+{
+}
+
+LocationState::~LocationState()
+{
+}
+
 int LocationState::getName()
 {
 	return Locations::City;

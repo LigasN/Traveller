@@ -33,14 +33,19 @@ int  Player::getHP()
 	return playerStatistics.HP;
 }
 
+void Player::setLevel(int level)
+{
+	Clevel.setLevel(level);
+}
+
 void Player::addLevel()
 {
-	level.increaseLEvel();
+	Clevel.increaseLEvel();
 }
 
 int Player::getLevel()
 {
-	return level.getLevel();
+	return Clevel.getLevel();
 }
 
 void Player::getHit(int DMG)
@@ -67,7 +72,7 @@ void Player::get(Trove toAdd)
 void Player::info()
 {
 	//take to text.h
-	std::cout << "Twoje statystiki:\n-->Level:\t" << level.getLevel() << std::endl;
+	std::cout << "Twoje statystiki:\n-->Level:\t" << Clevel.getLevel() << std::endl;
 	std::cout << "-->HP:\t" << playerStatistics.HP << std::endl;
 	std::cout << "-->si³a:\t" << playerStatistics.strength << std::endl;
 	std::cout << "-->wytrzyma³oœæ:\t" << playerStatistics.stamina << std::endl;

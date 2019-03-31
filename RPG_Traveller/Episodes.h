@@ -19,8 +19,9 @@
 ///	-First_moments	-First moments on the world
 ///
 /////////////////////////////////////////////////////////////////////////////
+
 struct EpisodesMachine {
-	void EpisodFunction(Episodes & Epi, PlayerStates & state, NPC & npc, const char* SpecialInfo, int language, int Location) {
+	void EpisodFunction(Episodes & Epi, PlayerStates & state, NPC * npc, const char* SpecialInfo, int language, int Location) {
 		int choice{};
 
 		std::cout << TEXTS[language][Location_Name];

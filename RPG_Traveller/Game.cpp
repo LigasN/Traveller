@@ -16,17 +16,20 @@ Game::Game() : Location()
 	std::cout << TEXTS[language][Nick];
 	std::cin >> name;
 	player.setName(name);
-
-
+	Settings_Handle Settings(Settings_Handle::EHandledFormats::TXT);
+	SettingsMap = Settings.Load_Settings();
+	language = SettingsMap["language"];
 	state = PlayerStates::WhatNow;
 	episod = Episodes::First_moments;
+	player.setLevel(SettingsMap["level"]);
+	state = PlayerStates(SettingsMap["state"]);
+	episod = Episodes(SettingsMap["episod"]);
 }
 
 
 Game::~Game()
 {
 }
-
 
 Game * Game::instance = 0;
 
@@ -59,9 +62,19 @@ void Game::changeLocation()
 	Location.move(option);
 }
 
+void Game::UpdateSettings()
+{
+	Settings_Handle Settings(Settings_Handle::EHandledFormats::TXT);
+	SettingsMap = Settings.Load_Settings();
+	language = SettingsMap["language"];
+	player.setLevel(SettingsMap["level"]);
+	state = PlayerStates(SettingsMap["state"]);
+	episod = Episodes(SettingsMap["episod"]);
+}
+
 int Game::getLanguage()
 {
-	return Language;
+	return language;
 }
 
 void Game::setGameOver()
@@ -87,7 +100,7 @@ void Game::setPlayerState(PlayerStates state)
 bool Game::Update()
 {
 	system("cls");
-	episodes_machine.EpisodFunction(episod, state, npc, "", Language, getLocationName());
+	episodes_machine.EpisodFunction(episod, state, npc, "", language, getLocationName());
 	char option{};
 
 	switch (state)
@@ -261,6 +274,7 @@ bool Game::Update()
 		state = PlayerStates::WhatNow;
 		break;
 	}
+	return EXIT_FAILURE;
 }
 
 Player & Game::getPlayer()

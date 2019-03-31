@@ -1,22 +1,33 @@
 #pragma once
 
 #include "Trove.h"
-#include <vector>
+#include <iostream>
+#include "TEXT.h"
+#include "Game.h"
+#include "Enums.h"
+#include "Marsaglia's_Xorshift_Random_Numbers.h"
+
 
 class TroveBox
 {
 private:
 	std::vector<Trove> TrovesIn;
+	int recipient{};
+	int troveLimit{};
+	int amountOfTroves{};
+
+
 public:
 	TroveBox();
-	TroveBox(const char * NPCtype);
+	TroveBox(int recipient, bool place);
 	~TroveBox();
 	void info();
 	int getSize();
 	Trove GetAndDeleteTrove();
-	Trove& getTroveInfo(int option);
+	void getTroveInfo(int option);
+	std::vector<std::string> getTroveString(int option);
 	Trove getTrove(int option);
-	void addTrove(Trove& toAdd);
+	bool addTrove(Trove& toAdd);
 
 };
 
