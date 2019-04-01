@@ -4,14 +4,15 @@
 
 Arum_City::Arum_City()
 {
-
-	LocationState::MAX_Troveboxes = 10;
+	TroveBox newBox(Locations::City, true);
+	box = newBox;
+	MAX_Troveboxes = 10;
 	//LocationState::MAX_NPCs = 10;
 	//LocationState::MIN_NPCs = 3;
-	for (int i = 0; i < rand() % LocationState::MAX_Troveboxes; i++) {
+	for (int i = 0; i < rand() % MAX_Troveboxes; i++) {
 		//add more itemsto win
 		Trove add(Items::Sword, 0);
-		LocationState::box.addTrove(add);
+		box.addTrove(add);
 	}
 
 	//for (int i = 0; i < rand() % (MAX_NPCs - MIN_NPCs) + MIN_NPCs; i++) {

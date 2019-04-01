@@ -25,12 +25,17 @@ int Player::Hit()
 	playerStatistics.trove.info();
 	std::cin >> choice;
 
-	return playerStatistics.trove.getTroveInfo(choice).makeDMG();
+	return playerStatistics.trove.makeDMG();
 }
 
 int  Player::getHP()
 {
 	return playerStatistics.HP;
+}
+
+void Player::setLevel(int level)
+{
+	this->level.setLevel(level);
 }
 
 void Player::addLevel()

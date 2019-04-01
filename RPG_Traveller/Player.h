@@ -17,6 +17,7 @@ public:
 	void setName(std::string name);
 	int Hit();
 	int getHP();
+	void setLevel(int level);
 	void addLevel();
 	int getLevel();
 	void getHit(int DMG);

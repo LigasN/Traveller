@@ -1,0 +1,4 @@
+l         0				language
+v         001				level
+e         000				episod
+s         007				state

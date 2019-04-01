@@ -4,7 +4,7 @@
 #include "NPC.h"
 
 
-class City_official : NPC
+class City_official : public NPC
 {
 public:
 	City_official();
