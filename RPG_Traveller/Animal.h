@@ -3,7 +3,7 @@
 #include "Enums.h"
 #include "NPC.h"
 
-class Animal : NPC 
+class Animal : public NPC
 {
 public:
 	Animal();

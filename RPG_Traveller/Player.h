@@ -17,12 +17,13 @@ public:
 	void setName(std::string name);
 	int Hit();
 	int getHP();
+	void setLevel(int level);
 	void addLevel();
 	int getLevel();
 	void getHit(int DMG);
 	Trove give(int value);
 	void get(Trove toAdd);
 	void info();
-
+	void resetStatistics();
 };
 

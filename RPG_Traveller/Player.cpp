@@ -7,6 +7,10 @@
 
 Player::Player()
 {
+	TroveBox box(NPCTypes::EPlayer, false);
+	Trove trove(Items::Sword, 1);
+	box.addTrove(trove);
+	playerStatistics.trove = box;
 }
 
 Player::~Player()
@@ -25,12 +29,17 @@ int Player::Hit()
 	playerStatistics.trove.info();
 	std::cin >> choice;
 
-	return playerStatistics.trove.getTroveInfo(choice).makeDMG();
+	return playerStatistics.trove.makeDMG();
 }
 
 int  Player::getHP()
 {
 	return playerStatistics.HP;
+}
+
+void Player::setLevel(int level)
+{
+	this->level.setLevel(level);
 }
 
 void Player::addLevel()
@@ -45,18 +54,13 @@ int Player::getLevel()
 
 void Player::getHit(int DMG)
 {
-	playerStatistics.HP -= DMG;
+	playerStatistics.HP -= 100 * DMG / playerStatistics.stamina;
+	playerStatistics.stamina -= 10;
 }
 
 Trove Player::give(int value)
 {
-	Trove toGive;
-	do {
-		std::cout << "to small value" << std::endl;//get to texts
-		toGive = playerStatistics.trove.GetAndDeleteTrove();
-	} while (toGive.getValue() * toGive.getAmount() < value);
-
-	return toGive;
+	return playerStatistics.trove.GetAndDeleteTrove();
 }
 
 void Player::get(Trove toAdd)
@@ -66,15 +70,24 @@ void Player::get(Trove toAdd)
 
 void Player::info()
 {
-	//take to text.h
-	std::cout << "Twoje statystiki:\n-->Level:\t" << level.getLevel() << std::endl;
-	std::cout << "-->HP:\t" << playerStatistics.HP << std::endl;
-	std::cout << "-->si³a:\t" << playerStatistics.strength << std::endl;
-	std::cout << "-->wytrzyma³oœæ:\t" << playerStatistics.stamina << std::endl;
-	std::cout << "-->szacunek:\t" << playerStatistics.respect << std::endl;
-	std::cout << "-->si³a perswazji:\t" << playerStatistics.persuasion_power << std::endl;
-	std::cout << "-->pojemnoœæ plecaka:\t" << playerStatistics.backpack_capacity << std::endl;
-	std::cout << "-->twój dobytek:\t";
+	std::cout << TEXTS[language][staty_show] << level.getLevel();
+	std::cout << TEXTS[language][show_HP] << playerStatistics.HP;
+	std::cout << TEXTS[language][show_strength] << playerStatistics.strength;
+	std::cout << TEXTS[language][show_stamina] << playerStatistics.stamina;
+	std::cout << TEXTS[language][show_respect] << playerStatistics.respect;
+	std::cout << TEXTS[language][show_persuasion_power] << playerStatistics.persuasion_power;
+	std::cout << TEXTS[language][show_backpack_capacity] << playerStatistics.backpack_capacity;
+	std::cout << TEXTS[language][show_your_troves];
 	playerStatistics.trove.info();
 	std::cout << std::endl << std::endl;
+}
+
+void Player::resetStatistics()
+{
+	playerStatistics.HP = 100;
+	playerStatistics.persuasion_power = 100;
+	playerStatistics.strength = 100;
+	playerStatistics.stamina = 100;
+	playerStatistics.respect = 100;
+	playerStatistics.persuasion_power = 100;
 }

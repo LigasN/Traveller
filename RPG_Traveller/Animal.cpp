@@ -11,7 +11,7 @@ Animal::Animal()
 	statistics.respect = 10;
 	statistics.stamina = 25;
 	statistics.strength = 30;
-	TroveBox box;
+	TroveBox box(NPCTypes::EAnimal, false);
 	Trove trove(Items::Sword, 1);
 	box.addTrove(trove);
 	statistics.trove = box;
@@ -32,5 +32,5 @@ int Animal::Hit()
 	int max_rand = 2;// statistics.backpack_capacity();
 	int choice = rand() % max_rand;
 
-	return statistics.trove.getTroveInfo(choice).makeDMG();
+	return statistics.trove.makeDMG();
 }

@@ -16,10 +16,9 @@ Game::Game() : Location()
 	std::cout << TEXTS[language][Nick];
 	std::cin >> name;
 	player.setName(name);
-
-
 	state = PlayerStates::WhatNow;
 	episod = Episodes::First_moments;
+	UpdateSettings();
 }
 
 
@@ -34,6 +33,16 @@ Game & Game::getInstance()
 {
 	static Game game;
 	return game;
+}
+
+void Game::UpdateSettings()
+{
+	Settings_Handle Settings(Settings_Handle::EHandledFormats::TXT);
+	SettingsMap = Settings.Load_Settings();
+	language = SettingsMap["language"];
+	player.setLevel(SettingsMap["level"]);
+	state = PlayerStates(SettingsMap["state"]);
+	episod = Episodes(SettingsMap["episod"]);
 }
 
 int Game::getLocationName()
@@ -61,7 +70,7 @@ void Game::changeLocation()
 
 int Game::getLanguage()
 {
-	return Language;
+	return language;
 }
 
 void Game::setGameOver()
@@ -87,12 +96,14 @@ void Game::setPlayerState(PlayerStates state)
 bool Game::Update()
 {
 	system("cls");
-	episodes_machine.EpisodFunction(episod, state, npc, "", Language, getLocationName());
+	episodes_machine.EpisodFunction(episod, state, npc, "", language, getLocationName());
 	char option{};
 
 	switch (state)
 	{
 	case PlayerStates::playerState:
+		//std::cout << "playerstate";
+
 		player.info();
 		std::cout << "\nk- kontynuuj";
 		std::cin >> option;
@@ -113,7 +124,7 @@ bool Game::Update()
 
 	case PlayerStates::Walk:
 
-
+		//std::cout << "walking";
 
 		std::cin >> option;
 
@@ -133,6 +144,7 @@ bool Game::Update()
 		}
 
 	case PlayerStates::WhatNow:
+		//std::cout << "what now";
 
 		std::cin >> option;
 
@@ -140,12 +152,12 @@ bool Game::Update()
 		{
 			state = PlayerStates::Traveling;
 		}
-		//else if (option == 'i')
-		//{
-		//	state = PlayerStates::playerState;
-		//}
-		/*
-		else if (option == 'w')
+		else if (option == 'i')
+		{
+			state = PlayerStates::playerState;
+		}
+		
+		/*else if (option == 'w')
 		{
 			state = PlayerStates::Walk;
 		}*/
@@ -166,6 +178,7 @@ bool Game::Update()
 		break;
 
 	case PlayerStates::Traveling:
+		//std::cout << "travel";
 
 		Map();
 		bool choice;
@@ -183,6 +196,7 @@ bool Game::Update()
 		break;
 	
 	case PlayerStates::Handel:
+		//std::cout << "handel";
 
 		std::cin >> option;
 
@@ -198,6 +212,7 @@ bool Game::Update()
 		break;
 
 	case PlayerStates::Talk:
+		//std::cout << "talk";
 
 		std::cin >> option;
 
@@ -221,6 +236,7 @@ bool Game::Update()
 		break;
 
 	case PlayerStates::Fight:
+		//std::cout << "fight";
 
 		//std::cin >> option;		//To repair with NPC solution
 
@@ -232,7 +248,7 @@ bool Game::Update()
 		//}
 		//else if (npc.getHP() <= 0) {
 
-		//	episodes_machine.EpisodFunction(episod, state, npc, "FightWin", Language, Location);
+		//	episodes_machine.EpisodFunction(episod, state, npc, "FightWin", language, Location);
 		//	gameOver = false;
 		//	break;
 		//}
@@ -248,7 +264,7 @@ bool Game::Update()
 		//}
 		//else if (option == 'r')
 		//{
-		//	episodes_machine.EpisodFunction(episod, state, npc, "runAway", Language, Location);
+		//	episodes_machine.EpisodFunction(episod, state, npc, "runAway", language, Location);
 		//	state = PlayerStates::playerState;
 		//}
 		//else if (option == 'd')
@@ -257,10 +273,13 @@ bool Game::Update()
 		//}
 		break;
 	case PlayerStates::Dance:
+		//std::cout << "dance";
+
 		std::cin >> option;
 		state = PlayerStates::WhatNow;
 		break;
 	}
+	return EXIT_FAILURE;
 }
 
 Player & Game::getPlayer()

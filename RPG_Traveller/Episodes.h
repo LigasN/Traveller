@@ -20,22 +20,22 @@
 ///
 /////////////////////////////////////////////////////////////////////////////
 struct EpisodesMachine {
-	void EpisodFunction(Episodes & Epi, PlayerStates & state, NPC & npc, const char* SpecialInfo, int language, int Location) {
+	void EpisodFunction(Episodes & Epi, PlayerStates & state, NPC npc, std::string SpecialInfo, int language, int iLocation) {
 		int choice{};
 
 		std::cout << TEXTS[language][Location_Name];
-		if (Location == Locations::City) {
+		if (iLocation == Locations::City) {
 			std::cout << TEXTS[language][Location_Name1];
 		}
-		else if (Location == Locations::Suburbs) {
+		else if (iLocation == Locations::Suburbs) {
 
 			std::cout << TEXTS[language][Location_Name2];
 		}
-		else if (Location == Locations::Riverside) {
+		else if (iLocation == Locations::Riverside) {
 
 			std::cout << TEXTS[language][Location_Name3];
 		}
-		else if (Location == Locations::Forest) {
+		else if (iLocation == Locations::Forest) {
 
 			std::cout << TEXTS[language][Location_Name4];
 		}
@@ -46,19 +46,19 @@ struct EpisodesMachine {
 			switch (Epi) {
 
 			case Episodes::First_moments:
-				if (Location == Locations::City) {
+				if (iLocation == Locations::City) {
 					std::cout << TEXTS[language][Byron_name];
 				}
-				else if (Location == Locations::Suburbs) {
+				else if (iLocation == Locations::Suburbs) {
 
 					std::cout << TEXTS[language][First_moments_traveling];
 				}
-				else if (Location == Locations::Riverside) {
+				else if (iLocation == Locations::Riverside) {
 
 					std::cout << TEXTS[language][First_moments_ending];
 
 				}
-				else if (Location == Locations::Forest) {
+				else if (iLocation == Locations::Forest) {
 
 					std::cout << TEXTS[language][First_moments_traveling];
 				}
