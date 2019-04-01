@@ -1,0 +1,47 @@
+﻿  Animal.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\animal.cpp(14): error C2661: 'TroveBox::TroveBox': no overloaded function takes 2 arguments
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\animal.cpp(35): error C2039: 'makeDMG': is not a member of 'TroveBox'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\trovebox.h(6): note: see declaration of 'TroveBox'
+  Bystander.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\bystander.cpp(12): error C2661: 'TroveBox::TroveBox': no overloaded function takes 2 arguments
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\bystander.cpp(33): error C2039: 'makeDMG': is not a member of 'TroveBox'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\trovebox.h(6): note: see declaration of 'TroveBox'
+  Arum_City.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\arum_city.cpp(7): error C2661: 'TroveBox::TroveBox': no overloaded function takes 2 arguments
+  City_official.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\city_official.cpp(14): error C2661: 'TroveBox::TroveBox': no overloaded function takes 2 arguments
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\city_official.cpp(34): error C2039: 'makeDMG': is not a member of 'TroveBox'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\trovebox.h(6): note: see declaration of 'TroveBox'
+  Criminal.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\criminal.cpp(14): error C2661: 'TroveBox::TroveBox': no overloaded function takes 2 arguments
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\criminal.cpp(35): error C2039: 'makeDMG': is not a member of 'TroveBox'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\trovebox.h(6): note: see declaration of 'TroveBox'
+  Dealer.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\dealer.cpp(14): error C2661: 'TroveBox::TroveBox': no overloaded function takes 2 arguments
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\dealer.cpp(35): error C2039: 'makeDMG': is not a member of 'TroveBox'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\trovebox.h(6): note: see declaration of 'TroveBox'
+  Ghali_Forest.cpp
+  Game.cpp
+  Journalist.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\journalist.cpp(14): error C2661: 'TroveBox::TroveBox': no overloaded function takes 2 arguments
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\journalist.cpp(35): error C2039: 'makeDMG': is not a member of 'TroveBox'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\trovebox.h(6): note: see declaration of 'TroveBox'
+  LocationContext.cpp
+  LocationState.cpp
+  NPC.cpp
+  Player.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\player.cpp(28): error C2039: 'makeDMG': is not a member of 'TroveBox'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\trovebox.h(6): note: see declaration of 'TroveBox'
+  Ghali_Riverside.cpp
+  Smith.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\smith.cpp(14): error C2661: 'TroveBox::TroveBox': no overloaded function takes 2 arguments
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\smith.cpp(35): error C2039: 'makeDMG': is not a member of 'TroveBox'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\trovebox.h(6): note: see declaration of 'TroveBox'
+  Arum_Suburbs.cpp
+  Source.cpp
+  TroveBox.cpp
+  Worker.cpp
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\worker.cpp(14): error C2661: 'TroveBox::TroveBox': no overloaded function takes 2 arguments
+d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\worker.cpp(35): error C2039: 'makeDMG': is not a member of 'TroveBox'
+  d:\dokumenty\pulpit\studia\rok2\po\laby\rpg-project\mvp\traveller-master\rpg_traveller\trovebox.h(6): note: see declaration of 'TroveBox'
+  Generating Code...
