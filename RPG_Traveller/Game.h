@@ -4,6 +4,9 @@
 #include "Episodes.h"
 #include "Player.h"
 #include "Arum_City.h"
+#include "Settings_Handle.h"
+#include <map>
+
 
 class Game
 {
@@ -20,7 +23,7 @@ private:
 	NPC npc;
 	bool gameOver;
 	static Game* instance;
-	int Language;
+	std::map< std::string, int> SettingsMap;
 
 public:
 	
@@ -31,7 +34,7 @@ public:
 
 	void locationInfo();
 	void changeLocation();
-
+	void UpdateSettings();
 	int getLanguage();
 	void setGameOver();
 	bool getGameOver();

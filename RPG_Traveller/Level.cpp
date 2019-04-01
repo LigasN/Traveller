@@ -12,6 +12,11 @@ Level::~Level()
 {
 }
 
+void Level::setLevel(int level)
+{
+	this->level = level;
+}
+
 void Level::increaseLEvel()
 {
 	level++;

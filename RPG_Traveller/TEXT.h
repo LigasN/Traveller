@@ -16,7 +16,7 @@ typedef enum {
 	Enum_Dance = 9,
 	LostGame = 10,
 	WinFight = 11,
-	Shop = 12,
+	Shop = 12,								//puste
 	Hitting = 13,
 	Location_Name1 = 14,
 	Location_Name2 = 15,
@@ -31,7 +31,29 @@ typedef enum {
 	Road5 = 24,
 	Road6 = 25,
 	First_moments_ending = 26,
-	First_moments_traveling = 27
+	First_moments_traveling = 27,
+	empty = 28,
+	added_trove = 29,
+	overloadedTrove = 30,
+	overloadedTrove2 = 31,
+	NotImplementedException = 32,
+	staty_show = 33,
+	show_HP = 34,
+	show_strength = 35,
+	show_stamina = 36,
+	show_respect = 37,
+	show_persuasion_power = 38,
+	show_backpack_capacity = 39,
+	show_your_troves = 40,
+	show_item_type = 41,
+	show_item_type_sword = 42,
+	show_item_DMG = 43,
+	show_item_amount = 44,
+	show_item_strength = 45,
+	show_item_value = 46,
+	show_item_maxAmount = 47
+
+
 } TEXT_ID;
 
 typedef enum Languages {
@@ -72,7 +94,7 @@ static const char* TEXTS[4][100]{
 	"Brawo! Znowu sie wyglupiles, a ludzie patrza z okien jak na idiote... Z reszta\ncalkiem slusznie..\n",			//9
 	"\n<\tG; Game Over! ;D\t>\n",			//10
 	"Brawo wygrales walke!\n",			//11
-	"Zawartosc:\n",			//12
+	"\n",			//12
 	"Wybierz czym chcesz zaatakowac przeciwnika:\n",			//13
 	"Wielkie miasto Arum\n\n",			//14
 	"Przedmiescia wielkiego miasta Arum\n\n",			//15
@@ -86,45 +108,47 @@ static const char* TEXTS[4][100]{
 	"\n\n\tWedrowka z terenow nadrzecznych Ghali do przedmiesc miasta Arum...\n\n",			//23
 	"\n\n\tWedrowka po nieskonczonym lesie w Ghali...\n\n",			//24
 	"\n\n\tWedrowka z lasow w Ghali do terenow nadrzeczych tejze miejscowosci...\n\n",			//25
-	"\n\nByron: Brawo! Ukonczyles pierwsza misje! Wiecej w pelnej wersji gry\ne- EXIT\n",			//4
+	"\n\nByron: Brawo! Ukonczyles pierwsza misje! Wiecej w pelnej wersji gry\ne- EXIT\n",			//26
 	"\n\nt- podrozujesz dalej\n",
+	"\n\tWlasnie wykorzystales ostatnia sztuke!\n",
+	"\nDodano przedmiot\n",
+	"\nZ powodu przepelnienia dodano tylko ",
+	"przedmiotow.\n",
+	"\n\nNotImplementedException\n\n",
+	"\nTwoje statystyki : \n\t--> Level:\t\t",
+	"\n\t--> HP:\t\t\t",
+	"\n\t--> sila:\t\t",
+	"\n\t--> wytrzymalosc:\t",
+	"\n\t--> szacunek:\t\t",
+	"\n\t--> sila perswazji:\t",
+	"\n\t--> pojemnosc plecaka:\t",
+	"\n\t--> Twoj dobytek:\t",
+	"\n\t\t--> typ:\t\t",
+	"Miecz",
+	"\n\t\t--> zadawane obrazenia:\t",
+	"\n\t\t--> liczba:\t\t",
+	"\n\t\t--> zuzycie:\t\t",
+	"\n\t\t--> wartosc:\t\t",
+	"\n\t\t--> przenosnosc:\t",
+
 	},
 	{
-	"Nie oczekiwany b³¹d\n\n",																					//0
-	"Witaj w grze!\n\n",																						//1
-	"Wybierz jedn¹ z poni¿szych opcji:\n",																		//2
-	"1- Start gry\n2- Zapisz grê\n3- Wczytaj grê\n4-WyjdŸ\n",													//3	
-	"\n<\tG; Dziêki za grê! ;D\t>\n",																			//4
-	"\nNieznajomy:\tWitaj Przyjacielu! Jak Ciê zw¹?\n\t-> ",													//5
-	"\nNieŸle!\nNa mnie wo³aj¹ Byron\n",																		//6
-	"\nByron:\tSkoro juz siê znamy to opowiem Ci troszkê o miejscu, w którym siê znajdujemy.\n",				//7
-	"Wyl¹dowa³eœ na przedmieœciach Arum! Spore miasto, du¿o ludzi, opuszczonych zakamarków,\nciekawych miejsc i znalezisk.",//8
-	" Jednak nie czas na zwiedzanie! Piwa napijemy siê póŸniej!\n",				//9
-	"Czas na pierwsz¹ misjê! Twoim zadaniem jest siê dostaæ do lasu w miejscowosci zwanej Ghali.\n",			//10
-	"Trzymaj mapê. Dziêki niej dowiesz siê jak tam dojœæ. Ja bêde tam na Ciebie czeka³.\n\n",						//11
-	"\n\n<Byron odszed³ i znikn¹³ za rogiem ogrodzenia przy którym stoisz. Ogl¹dasz siê\n",							//12
-	"<dookola i widzisz standardow¹ ulicê na przedmieœciach sporego miasta. Co teraz?>\n",						//13
-	"1 -> Nie sluchasz nieznajomego ciecia, ktory niewiadomo sk¹d siê przyszwêda³ i dla\n",						//14
-	"   pewnoœci idziesz w przeciwn¹ stronê ni¿ on poszed³.(full version)\n",									//15
-	"2 -> Stwierdzasz, ¿e ma³y nie g³upi samouczek to ca³kiem dobry pomys³ i sprawdzasz mapê.\n",				//16
-	"3 -> Rozgl¹dasz siê ko³o siebie jeszcze dok³adniej wierz¹c, ¿e diabe³ tkwi w szczegó³ach.(full version)\n",//17
-	"4 -> Zaczynasz tañczyæ zbójnickiego\n",																	//18
-	"<Lokacja>:\t",			//4
-	"Co zamierzasz\n\tt -> Nie mam w planach siê tutaj d³u¿ej zatrzymywaæ. Kontynuujmy podró¿!\n",			//4
-	"\ti -> Muszê sprawdziæ zapasy i chwilê odpocz¹æ.\n\tw -> Chodzmy siê ",			//4
-	"przejœæ. Mam tutaj sprawê do za³atwienia.\n\td -> Mam ochotê... Potañczyæ!",			//4
-	"Brawo! Znowu siê wyg³upi³eœ, a ludzie patrz¹ z okien jak na idiotê... Z reszt¹\nca³kiem s³usznie..\n",			//4
-	"\n<\tG; Game Over! ;D\t>\n",			//4
-	"Brawo wygra³eœ walkê!\n",			//4
-	"Zawartoœæ:\n",			//4
-	"Wybierz czym chcesz zaatakowaæ przeciwnika:\n",			//4
-	"Wielkie miasto Arum\n",			//4
-	"Przedmieœcia wielkiego miasta Arum\n",			//4
-	"Tereny nadrzeczne w Ghali\n",			//4
-	"Las w Ghali\n",			//4
-	"\n\nByron: Brawo! Ukonczyles pierwsza misje! Wiecej w pelnej wersji gry\ne- EXIT\n\n",			//4
 	"\n",			//4
 	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n",			//4
+	"\n"			//4
 	},
 	{
 	"\n",			//4

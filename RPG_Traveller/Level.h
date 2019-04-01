@@ -7,6 +7,8 @@ private:
 public:
 	Level();
 	~Level();
+
+	void setLevel(int level);
 	void increaseLEvel();
 	int getLevel();
 };

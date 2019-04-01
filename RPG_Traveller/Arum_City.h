@@ -3,7 +3,6 @@
 #include "Enums.h"
 #include "LocationContext.h"
 #include "LocationState.h"
-#include "TroveBox.h"
 #include <iostream>
 #include "TEXT.h"
 #include "Game.h"

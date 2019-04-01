@@ -133,17 +133,19 @@
     <ClInclude Include="LocationContext.h" />
     <ClInclude Include="LocationState.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="Marsaglia%27s_Xorshift_Random_Numbers.h" />
     <ClInclude Include="NPC.h" />
     <ClInclude Include="NPCSDefinitions.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Ghali_Riverside.h" />
+    <ClInclude Include="Settings_Body.h" />
+    <ClInclude Include="Settings_Body_TXT.h" />
+    <ClInclude Include="Settings_Body_XML.h" />
+    <ClInclude Include="Settings_Handle.h" />
     <ClInclude Include="Smith.h" />
     <ClInclude Include="Statistics.h" />
     <ClInclude Include="Arum_Suburbs.h" />
-    <ClInclude Include="TEXT.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
+    <ClInclude Include="TEXT.h" />
     <ClInclude Include="Title.h" />
     <ClInclude Include="Trove.h" />
     <ClInclude Include="TroveBox.h" />
@@ -166,6 +168,10 @@
     <ClCompile Include="NPC.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Ghali_Riverside.cpp" />
+    <ClCompile Include="Settings_Body.cpp" />
+    <ClCompile Include="Settings_Body_TXT.cpp" />
+    <ClCompile Include="Settings_Body_XML.cpp" />
+    <ClCompile Include="Settings_Handle.cpp" />
     <ClCompile Include="Smith.cpp" />
     <ClCompile Include="Arum_Suburbs.cpp" />
     <ClCompile Include="Source.cpp" />
