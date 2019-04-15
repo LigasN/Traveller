@@ -58,9 +58,12 @@
 #include "Trove.h"
 #include <vector>
 #include <iostream>
-#include "TEXT.h"
+#include "C_TEXTS.h"
 #include "Enums.h"
+#include "SortHandle.h"
 #include "Marsaglia's_Xorshift_Random_Numbers.h"
+#include <algorithm>
+#include <assert.h>
 
 class TroveBox
 {
@@ -98,6 +101,7 @@ public:
 	~TroveBox();
 	int getSize();
 	int makeDMG();
+	void sortTroveBox();
 	void info();
 	Trove GetAndDeleteTrove();
 	void getTroveInfo(int option);

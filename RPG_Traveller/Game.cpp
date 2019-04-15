@@ -1,24 +1,17 @@
 #include "Game.h"
-#include "Enums.h"
-#include "TEXT.h"
-#include "NPC.h"
-#include <string>
-#include <iostream>
-#include "Title.h"
-#include "Map.h"
+#include "title.h"
+#include "map.h"
 
 Game::Game() : Location()
 {
 	Title();
+	UpdateSettings();
 	gameOver = false;
 	Location.setLocation(new Arum_City());
 	std::string name{};
-	std::cout << TEXTS[language][Nick];
+	TEXTS_object->writeText(C_TEXTS::TEXT_ID::Nick);
 	std::cin >> name;
 	player.setName(name);
-	state = PlayerStates::WhatNow;
-	episod = Episodes::First_moments;
-	UpdateSettings();
 }
 
 
@@ -37,9 +30,19 @@ Game & Game::getInstance()
 
 void Game::UpdateSettings()
 {
+
 	Settings_Handle Settings(Settings_Handle::EHandledFormats::TXT);
 	SettingsMap = Settings.Load_Settings();
-	language = SettingsMap["language"];
+
+	if (SettingsMap["language"] != 0)
+	{
+		TEXTS_object->langugeUpdate(SettingsMap["language"] - 1);
+	}
+	else
+	{
+		TEXTS_object = std::make_unique < C_TEXTS >();
+	}
+	episodes_machine.UpdateText(std::move(TEXTS_object));
 	player.setLevel(SettingsMap["level"]);
 	state = PlayerStates(SettingsMap["state"]);
 	episod = Episodes(SettingsMap["episod"]);
@@ -49,11 +52,6 @@ int Game::getLocationName()
 {
 	return Location.getName();
 }
-//
-//NPC & Game::getNPC()
-//{
-//	return npc;
-//}
 
 void Game::locationInfo()
 {
@@ -66,11 +64,6 @@ void Game::changeLocation()
 	Map();
 	std::cin >> option;
 	Location.move(option);
-}
-
-int Game::getLanguage()
-{
-	return language;
 }
 
 void Game::setGameOver()
@@ -96,7 +89,7 @@ void Game::setPlayerState(PlayerStates state)
 bool Game::Update()
 {
 	system("cls");
-	episodes_machine.EpisodFunction(episod, state, npc, "", language, getLocationName());
+	episodes_machine.EpisodFunction(episod, state, npc, EpisodesMachine::SpecialSytuations::none, Location.getName());
 	char option{};
 
 	switch (state)
@@ -105,6 +98,9 @@ bool Game::Update()
 		//std::cout << "playerstate";
 
 		player.info();
+		player.SortYourTrove();
+		player.info();
+
 		std::cout << "\nk- kontynuuj";
 		std::cin >> option;
 		if (option == 'k')
@@ -130,12 +126,12 @@ bool Game::Update()
 
 		if (option == 'e')//explore
 		{
-			episodes_machine.SpecialEpisod("DerelictHause");
+			episodes_machine.SpecialEpisod(EpisodesMachine::SpecialSytuations::DerelictHause);
 			//To write what happen do derelict hause give TroveBox, to Player get TroveBox, and decision about taking it
 		}
 		else if (option == 'g')//get
 		{
-			episodes_machine.SpecialEpisod("Trove");
+			episodes_machine.SpecialEpisod(EpisodesMachine::SpecialSytuations::Trove);
 			//To write what happen to Location give TroveBox, to Player get TroveBox, and decision about taking it
 		}
 		else if (option == 't')//talk
@@ -202,12 +198,12 @@ bool Game::Update()
 
 		if (option == 'b')//buy
 		{
-			episodes_machine.SpecialEpisod("buying");
+			episodes_machine.SpecialEpisod(EpisodesMachine::SpecialSytuations::buying);
 		}
 		else if (option == 'l')//leave
 		{
 			state = PlayerStates::playerState;
-			std::cout << TEXTS[language][nothing_there];
+			episodes_machine.SpecialEpisod(EpisodesMachine::SpecialSytuations::Nothing_to_find);
 		}
 		break;
 

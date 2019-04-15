@@ -4,11 +4,13 @@
 #include "Enums.h"
 #include <string>
 #include "Statistics.h"
+#include "Episodes.h"
 
 class Player
 {
 private:
 	Statistics playerStatistics;
+	EpisodesMachine episodes_machine;
 	Level level;
 	std::string name;
 public:
@@ -25,5 +27,6 @@ public:
 	void get(Trove toAdd);
 	void info();
 	void resetStatistics();
+	void SortYourTrove();
 };
 

@@ -53,7 +53,7 @@ void LocationContext::info()
 	actualLocation->info();
 }
 
-int LocationContext::getName()
+Locations LocationContext::getName()
 {
 	return location;
 }

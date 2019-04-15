@@ -16,11 +16,9 @@ public:
 	LocationState * getLocation();
 	void setLocation(LocationState * newOne);
 
-	//void goLeft();
-	//void goRight();
 
 	void info();
-	int getName();
+	Locations getName();
 	bool move(bool left);
 	void addTrove(Trove & toAdd);
 	Trove getTrove();

@@ -1,4 +1,9 @@
 #pragma once
+
+
+#ifndef MAP
+#define MAP
+
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -19,3 +24,5 @@ void Map()
 		cout << endl;
 	}
 }
+
+#endif

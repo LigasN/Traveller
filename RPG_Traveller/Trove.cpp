@@ -72,6 +72,11 @@ int Trove::makeDMG()
 	return DMG;
 }
 
+int Trove::getDMG()
+{
+	return DMG;
+}
+
 int Trove::getValue()
 {
 	return value * strength / 100;

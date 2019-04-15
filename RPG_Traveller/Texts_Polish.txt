@@ -1,0 +1,121 @@
+Nieoczekiwany b³¹d
+
+Witaj w grze!
+
+Wybierz jedn¹ z poni¿szych opcji:
+
+1- Start gry
+2- Zapisz grê
+3- Wczytaj grê
+4- WyjdŸ	
+
+<  				   G; Dziêki za grê! ;D		    	 	          >
+
+Nieznajomy:	Witaj Przyjacielu! Jak Ciê zw¹?
+
+Nieznajomy:	NieŸle! Na mnie wo³aj¹ Byron
+
+Byron:	Skoro ju¿ siê znamy to opowiem Ci trochê o miejscu, w którym siê znajdujemy.
+Wyl¹dowa³eœ na przedmieœciach Arum! Spore miasto, du¿o ludzi, opuszczonych zakamarków,
+ciekawych miejsc i znalezisk.
+Jednak nie czas na zwiedzanie! Piwa napijemy siê póŸniej!
+Czas na pierwsz¹ misjê! Twoim zadaniem jest siê dostaæ do lasu w miejscowoœci zwanej Ghali.
+Trzymaj mapê. Dziêki niej dowiesz siê jak tam dojœæ. Ja bêdê tam na Ciebie czeka³.
+
+<Lokacja>:
+
+< Byron odszed³ i znikn¹³ za rogiem ogrodzenia przy którym stoisz. Ogl¹dasz siê		  >	
+< dooko³a i widzisz standardow¹ ulicê na przedmieœciach sporego miasta. Co teraz?	  >
+< w -> Nie s³uchasz nieznajomego ciecia, który niewiadomo sk¹d siê przyszwêda³ i dla	  >
+<      pewnoœci idziesz w przeciwn¹ stronê ni¿ on poszed³.(pe³na wersja gry)"		  >
+< t -> Stwierdzasz, ¿e ma³y nie g³upi samouczek to ca³kiem dobry pomys³ i sprawdzasz mapê.>
+< l -> Rozgl¹dasz siê ko³o siebie jeszcze dok³adniej wierz¹c, ¿e diabe³ tkwi 		  >
+<      w szczegó³ach.(pe³na wersja gry)							  >
+< i -> Przegl¹dasz stan swojego plecaka i swój równie¿.					  >
+< d -> Zaczynasz tañczyæ zbójnickiego...						  >
+
+
+< Brawo! Znowu siê wyg³upi³eœ, a ludzie patrz¹ z okien jak na idiotê... 		  >
+< Z reszt¹ ca³kiem s³usznie...								  >
+
+<  				   G;  Game Over!  ;D		    	 	          >
+
+Brawo wygra³eœ walkê!
+
+Wybierz czym chcesz zaatakowaæ przeciwnika:
+
+Wielkie miasto Arum
+
+Przedmieœcia wielkiego miasta Arum
+
+Tereny nadrzeczne w Ghali
+
+Las w Ghali
+
+Nie widzê tutaj niczego interesuj¹cego...
+
+	Wêdrówka z miasta Arum na jego przedmieœcia...
+
+	Wêdrówka z przedmieœæ Arum na tereny nadrzeczne Ghali...
+
+	Wêdrówka z przedmieœæ miasta Arum do jego centrum...
+
+	Wêdrówka z terenów nadrzecznych Ghali do lasów w Ghali...
+
+	Wêdrówka z terenow nadrzecznych Ghali do przedmieœæ miasta Arum...
+
+	Wêdrówka po nieskoñczonym lesie w Ghali...
+
+	Wêdrówka z lasów w Ghali na tereny nadrzeczne tej¿e miejscowoœci...
+
+Byron: Brawo! Ukoñczy³eœ pierwsz¹ misjê! Wiêcej w pe³nej wersji gry
+e- Wyjœcie
+t- Podró¿ujesz dalej
+
+Co zamierzasz
+	t -> Nie mam w planach siê tutaj d³u¿ej zatrzymywaæ. Kontynuujmy podró¿!
+	i -> Muszê sprawdziæ zapasy i chwilê odpocz¹æ.
+	w -> ChodŸmy siê przejœæ. Mam tutaj sprawê do za³atwienia.
+	d -> Mam ochotê... Potañczyæ!
+
+W³aœnie wykorzysta³eœ ostatni¹ sztukê!
+
+Dodano przedmiot
+
+Z powodu przepe³nienia dodano tylko
+
+przedmiotów.
+
+NotImplementedException
+
+Twoje statystyki : 
+	--> poziom:
+
+	--> ¿ycie:				
+
+	--> si³a:		
+
+	--> wytrzyma³oœæ:		
+
+	--> szacunek:		
+
+	--> si³a perswazji:		
+
+	--> pojemnoœæ plecaka:	
+
+	--> Twój dobytek:	
+
+		--> typ:
+			
+Miecz
+
+		--> zadawane obra¿enia:	
+
+		--> liczba:	
+	
+		--> zu¿ycie:	
+	
+		--> wartoœæ:	
+	
+		--> przenoœnoœæ:
+	

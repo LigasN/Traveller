@@ -217,6 +217,12 @@ int TroveBox::makeDMG()
 	return TrovesIn[option].makeDMG();
 }
 
+void TroveBox::sortTroveBox()
+{
+	std::sort(TrovesIn.begin(), TrovesIn.end(), Sort_Body_DMG());			//Problem to solve 
+	assert("Problem with pointer to Handle_Body of sorting");
+}
+
 void TroveBox::info()
 {
 	std::cout << std::endl << std::endl;

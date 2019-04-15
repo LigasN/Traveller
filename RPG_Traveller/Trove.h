@@ -21,6 +21,7 @@ public:
 	void info();
 	std::string getInfoString();
 	int makeDMG();
+	int getDMG();
 	int getValue();
 	Trove getAmountOf(int amount);
 	int getAmount();

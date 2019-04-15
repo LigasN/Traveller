@@ -5,7 +5,6 @@
 #include "LocationState.h"
 #include <iostream>
 #include "TEXT.h"
-#include "Game.h"
 #include "NPCSDefinitions.h"
 #include "Arum_Suburbs.h"
 

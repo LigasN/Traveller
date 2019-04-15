@@ -114,6 +114,42 @@
     <ClInclude Include="Marsaglia%27s_Xorshift_Random_Numbers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C_TEXTS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort_Body.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort_Body_DMG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort_Body_VALUE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SortHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trove_to_NPC_Adapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TXT_Body.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TXT_Body_English.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TXT_Body_French.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TXT_Body_Italian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TXT_Body_Polish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TXT_Handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -195,6 +231,42 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Settings_Handle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_TEXTS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_Body.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_Body_DMG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_Body_VALUE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SortHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trove_to_NPC_Adapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TXT_Body.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TXT_Body_English.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TXT_Body_French.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TXT_Body_Italian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TXT_Body_Polish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TXT_Handle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

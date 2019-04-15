@@ -4,7 +4,6 @@
 #include "LocationState.h"
 #include <iostream>
 #include "TEXT.h"
-#include "Game.h"
 #include "Enums.h"
 #include "Arum_Suburbs.h"
 #include "Ghali_Forest.h"

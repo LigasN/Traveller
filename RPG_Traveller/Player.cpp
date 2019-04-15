@@ -91,3 +91,8 @@ void Player::resetStatistics()
 	playerStatistics.respect = 100;
 	playerStatistics.persuasion_power = 100;
 }
+
+void Player::SortYourTrove()
+{
+	playerStatistics.trove.sortTroveBox();
+}

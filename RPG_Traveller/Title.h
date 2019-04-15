@@ -1,5 +1,9 @@
 #pragma once
 
+#ifndef  TITLE
+#define TITLE
+
+
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -19,3 +23,4 @@ void Title() {
 		cout << endl;
 	}
 }
+#endif //  TITLE

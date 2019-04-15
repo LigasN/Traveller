@@ -122,6 +122,7 @@
     <ClInclude Include="Arum_City.h" />
     <ClInclude Include="City_official.h" />
     <ClInclude Include="Criminal.h" />
+    <ClInclude Include="C_TEXTS.h" />
     <ClInclude Include="Dealer.h" />
     <ClInclude Include="Derelict_House.h" />
     <ClInclude Include="Enums.h" />
@@ -143,12 +144,23 @@
     <ClInclude Include="Settings_Body_XML.h" />
     <ClInclude Include="Settings_Handle.h" />
     <ClInclude Include="Smith.h" />
+    <ClInclude Include="SortHandle.h" />
+    <ClInclude Include="Sort_Body.h" />
+    <ClInclude Include="Sort_Body_DMG.h" />
+    <ClInclude Include="Sort_Body_VALUE.h" />
     <ClInclude Include="Statistics.h" />
     <ClInclude Include="Arum_Suburbs.h" />
     <ClInclude Include="TEXT.h" />
     <ClInclude Include="Title.h" />
     <ClInclude Include="Trove.h" />
     <ClInclude Include="TroveBox.h" />
+    <ClInclude Include="Trove_to_NPC_Adapter.h" />
+    <ClInclude Include="TXT_Body.h" />
+    <ClInclude Include="TXT_Body_English.h" />
+    <ClInclude Include="TXT_Body_French.h" />
+    <ClInclude Include="TXT_Body_Italian.h" />
+    <ClInclude Include="TXT_Body_Polish.h" />
+    <ClInclude Include="TXT_Handle.h" />
     <ClInclude Include="Worker.h" />
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +169,7 @@
     <ClCompile Include="Arum_City.cpp" />
     <ClCompile Include="City_official.cpp" />
     <ClCompile Include="Criminal.cpp" />
+    <ClCompile Include="C_TEXTS.cpp" />
     <ClCompile Include="Dealer.cpp" />
     <ClCompile Include="Derelict_House.cpp" />
     <ClCompile Include="Ghali_Forest.cpp" />
@@ -174,10 +187,21 @@
     <ClCompile Include="Settings_Handle.cpp" />
     <ClCompile Include="Smith.cpp" />
     <ClCompile Include="Arum_Suburbs.cpp" />
+    <ClCompile Include="SortHandle.cpp" />
+    <ClCompile Include="Sort_Body.cpp" />
+    <ClCompile Include="Sort_Body_DMG.cpp" />
+    <ClCompile Include="Sort_Body_VALUE.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="Trove.cpp" />
     <ClCompile Include="TroveBox.cpp" />
+    <ClCompile Include="Trove_to_NPC_Adapter.cpp" />
+    <ClCompile Include="TXT_Body.cpp" />
+    <ClCompile Include="TXT_Body_English.cpp" />
+    <ClCompile Include="TXT_Body_French.cpp" />
+    <ClCompile Include="TXT_Body_Italian.cpp" />
+    <ClCompile Include="TXT_Body_Polish.cpp" />
+    <ClCompile Include="TXT_Handle.cpp" />
     <ClCompile Include="Worker.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
